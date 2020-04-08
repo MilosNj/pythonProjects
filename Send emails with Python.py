@@ -20,7 +20,7 @@ print("You can change your message in your Python code.")
 message = """\
 Subject: Sending emails with Python, faster, again
 
-This email was sent with some Python code, faster, again :)"""
+This email was sent with some Python code"""
 
 smtpObj.sendmail(email, recipient, message)
 
